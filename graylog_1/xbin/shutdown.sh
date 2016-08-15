@@ -1,4 +1,4 @@
 #!/bin/sh
 
-/app/mongodb/mongodb-linux-x86_64-ubuntu1404-3.2.8/bin/mongod shutdown
+/app/mongodb/mongodb-linux-x86_64-ubuntu1404-3.2.8/bin/mongod --shutdown --dbpath /data/mongodb/graylog_1/data
 
